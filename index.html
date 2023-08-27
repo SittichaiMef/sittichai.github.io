@@ -1,290 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
-	
-	<title>Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
 
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+    <title>WebSittichai</title>
 </head>
-<body class="home">
+<body>
+    <header>
+        <div class="profile">
+            <img src="img/guy.jpg" alt="">
+            <h1>Sittichai</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/MR.Nonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/sittichai__non/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCgrLy4TZZyOiySIf27FakXw"><i class="fa-brands fa-youtube"></i></a>
+            </div>
 
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">Anthony Russel</span>
-			<span class="tagline">A mystery person<br>
-				<a href="">anthony.russel42@example.com</a></span>
-		</h1>
-	</div>
+            <nav class="nav-manu">
+                <ul class="nav-ul-manu">
+                    <li onclick="functionToActiveNav(this)" id="li-home"><a class="nav-li-manu-a active" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li onclick="functionToActiveNav(this)" id="li-aboutme"><a class="nav-li-manu-a" href="#about" ><i class="fa-solid fa-user"></i> About Me</a></li>
+                    <li onclick="functionToActiveNav(this)" id="li-portfolio"><a class="nav-li-manu-a" href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li onclick="functionToActiveNav(this)" id="li-content"><a class="nav-li-manu-a" href="#contact"><i class="fa-solid fa-envelope"></i> Content</a></li>
+                </ul>
+            </nav>
 
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li>
-					<li><a href="blog.html">Blog</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
-</header>
+            <div class="footer">
+                <p>&copy; Copyright 2023 <br>Designed By Sittichai <a href="#" target="_blank">Sittichai</a></p>
+            </div>
+        </div>
+    </header>
 
-<main id="main">
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+    <!------------------------body-------------------------------------->
+    <main>
+        <section id="home">
+            <div class="home-row">
+                <h1>Hi, This is <br>Website Sittichai<span>.</span></h1>
+                <p>i'am a <span class="auto-input"></span></p>
+            </div>
+        </section>
 
-	<div class="container">
-		
-		<div class="row section topspace">
-			<div class="col-md-12">
-				<p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a href="about.html">measure</a> yourself by the people who measure themselves by you. it only took me <a href="sidebar-right.html">six days</a>. </p>
-			</div>
-		</div> <!-- / section -->
-		
-		<div class="row section featured topspace">
-			<h2 class="section-title"><span>Services</span></h2>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Custom website design</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Wordpress integration</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Application development</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">SEO &amp; SEM services</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-			</div>
-		</div> <!-- / section -->
-	
-		<div class="row section recentworks topspace">
-			
-			<h2 class="section-title"><span>Recent Works</span></h2>
-			
-			<div class="thumbnails recentworks row">
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Sample title - big data solutions</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
+        <section id="about">
+        
+            <h1 class="sub-heading">About Me</h1>
+            <div class="divider"></div>
+        
+            <div class="about-col">
+                <div class="img-col">
+                    <img src="img/guy.jpg"alt="">
+                </div>
+    
+            <div class="info-col">
+                <h2>Sittichai Meefung!</h2>
+                <!--<p class="sub-para">
+                    I started learning programming in high school.Made me realize that I like programming. When I have free time, I develop myself regularly. inorder to become a good programmer
+                </p> -->
+                <div class="icon-list-col">
+    
+                    <div class="icon-list">
+                        <ul>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Birthday:</strong><span>  9 Nov. 2001</span></li>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Wedsite:</strong><span> 22</span></li>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Phone:</strong><span> 0882741053</span></li>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Address:</strong><span> 78 Moo 6, Bang Rakam, Pho Thong, Ang Thong, 14120 </span></li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="icon-list">
+                        <ul>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Age:</strong><span> 22 years</span></li>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Degree:</strong><span> Bachelor's degree</span></li>
+                            <li><i class="fa-solid fa-angle fa-angle-right"></i><strong> Email:</strong><span> sittichai.mef@gmail.com</span></li>
+    
+                        </ul>
+                </div>
+                </div>
+    
+    
+            </div>
+            </div>
+        </section>
+        <!-- ======================== facts ================================ -->
+        <section id="fact">
+            <h1 class="sub-heading">Facts</h1>
+            <div class="divider"></div>
+            <p class="sub-para">facts about me</p>
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
+            <div class="fact-row">
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-			</div>
+                <!--<div class="fact-box">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <strong>10+</strong>
+                    <p>Studying the program</p>
+                </div>-->
 
-		</div> <!-- /section -->
+                <div class="fact-box">
+                    <i class="fa-regular fa-file-code"></i>
+                    <strong>10+</strong>
+                    <p>Projects Complet</p>
+                </div>
+                
+                <div class="fact-box">
+                    <i class="fa-solid fa-headset"></i>
+                    <strong>10+</strong>
+                    <p>Hours of Support</p>
+                </div>
+                
+                <div class="fact-box">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <strong>2+</strong>
+                    <p>work in progress</p>
+                </div>
+                
+                
+            </div>
+            
+        </section>
+        <!--==========================Skill============================-->
+        <section id="skill">
+            <h1 class="sub-heading">Skill</h1>
+            <div class="divider"></div>
+            <p class="sub-para">My abilities in each level</p>
+            <div class="skill-row">
 
-		<div class="row section topspace">
-			<div class="panel panel-cta"><div class="panel-body">
-				<div class="col-lg-8">
-					<p>A simple, nice-looking <b>call to action box</b>. Boxing is about respect. getting it for yourself, 
-					and taking it away from the other guy. no, this is mount everest. </p>
-				</div>
-				<div class="col-lg-4 text-right">
-					<a href="http://www.gettemplate.com/downloads/initio.zip " class="btn btn-primary btn-lg">Download template</a>
-				</div>
-			</div></div>
-		</div> <!-- /section -->
+            <!------------------------skill 1---------------------------------->
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>HTML</h2>
+                    <h2>85%</h2>
+                </div>
+                <div class="skill-outter-line">
+                    <div class="skill-inner-line" style="width: 85%;"></div>
+                </div>
+            </div>
+            <!------------------------skill 2---------------------------------->
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>CSS</h2>
+                    <h2>85%</h2>
+                </div>
+                <div class="skill-outter-line">
+                    <div class="skill-inner-line" style="width: 85%;"></div>
+                </div>
+            </div>
+            <!------------------------skill 3---------------------------------->
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>JavaScript</h2>
+                    <h2>60%</h2>
+                </div>
+                <div class="skill-outter-line">
+                    <div class="skill-inner-line" style="width: 60%;"></div>
+                </div>
+            </div>
+            <!------------------------skill 4---------------------------------->
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>Flutter</h2>
+                    <h2>80%</h2>
+                </div>
+                <div class="skill-outter-line">
+                    <div class="skill-inner-line" style="width: 80%;"></div>
+                </div>
+            </div>
 
-		<div class="row section clients topspace">
-			<h2 class="section-title"><span>Clients</span></h2>
-			<div class="col-lg-12">
-				<p>
-					<img src="assets/images/sample_clients.png" alt="">
-				</p>
-			</div>
-		</div> <!-- /section -->
+            </div>
 
-	</div>	<!-- /container -->
+        </section>
+        <!--============================resume=============================-->
+        <section id="resume">
+            <h1 class="sub-heading">Resume</h1>
+            <div class="divider"></div>
+            <p class="sub-para"> I started learning programming in high school.Made me realize that I like programming. When I have free time, I develop myself regularly. inorder to become a good programmer
+            </p>
 
-</main>
+            <div class="resume-row">
+                <!-- Left col-->
+                <div class="resume-cols">
 
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
+                    <!--<h2>summary</h2>
+                    <div class="my-info">
+                        <h3>M SANI</h3>
+                        <p>test</p>
+                        <ul>
+                            <li>Poretlan</li>
+                            <li>Poretlan</li>
+                            <li>Poretlan</li>
+                        </ul>
+                    </div>-->
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-twitter fa-2"></i></a>
-						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<a href=""><i class="fa fa-facebook fa-2"></i></a>
-					</p>
-				</div>
-			</div>
+                    <h2>Education</h2>
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
-				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-				</div>
-			</div>
+                    <div class="my-info">
+                        <h3>Master</h3>
+                        <span class="sp-box">2016-2023</span>
+                        <p>AYUTTHAYA COMMERCIAL TECHNOLOGY COLLEGE</p>
+                        <p>RAJAMANGALA UNIVERSITY OF TECHNOLOGY SUVARNABHUMI
+                        </p>
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
+                    </div>
+                </div>
+                <!-- Right col-->
+                <div class="resume-cols">
+                    <h2>Work Experiences</h2>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
+                    <div class="pro-exp">
+                        <h3>Website</h3>
+                        <span class="sp-box">Job Position  | 2016 - 2017</span>
+                        <ul>
+                            <li>Write a website to introducetourism in Phra Nakhon Si Ayutthaya province.</li>
+                            <li>Create a website to educate about programming.</li>
+                    
+                        </ul>
+                    </div>
+                    <div  class="pro-exp">
+                        <h3>Website.</h3> 
+                        <span class="sp-box">Job Position  | 2018 - 2021</span>
+                        <ul>
+                            <li>Write a website to collect student databases.</li>
+                            <li>Create a program to borrow books from the library.</li>
+                            <li>Create a website to educate the use of computers.</li>
+                        </ul>
 
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
-				</div>
-			</div>
+                    </div>
+                    <div  class="pro-exp">
+                        <h3>Application.</h3> 
+                        <span class="sp-box">Job Position  | 2021 - 2023</span>
+                        <ul>
+                            
+                            <li>Create an app to provide information about Phra Nakhon Si Ayutthaya Province.</li>
+                            <li>Create an app to search for buses in Phra Nakhon Si Ayutthaya Province.</li>
+                        </ul>
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2014, Your awesome name here<br> 
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
+                    </div>
+                </div>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
+            </div>
+        </section>
+        <!--========================Portfolio===========================-->
+        <section id="portfolio">
+            <h1 class="sub-heading">Portfolio</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Examples of work and pictures</p>
+
+            <div class="port-row">
+                <!--porfolio 1-->
+
+                <div class="port-item">
+                    <div class="port-img">
+                    <img src="img/web1.JPG" alt="...">
+                </div>
+                <div class="port-info">
+                    <h4>HomeProX</h4>
+                    <p>HomeProX</p>
+                    <a href="https://sites.google.com/rmutsb.ac.th/www-homeprox-com?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+            
+                <!--porfolio 2-->
+                <div class="port-item">
+                    <div class="port-img">
+                    <img src="img/web2.jpg" alt="...">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>test</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
 
 
+                <!--porfolio 3-->
+                <div class="port-item">
+                    <div class="port-img">
+                    <img src="img/guy.jpg" alt="...">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>test</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
 
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
+            </div>
+        </section>
+        <!--==================Contact====================-->
+        <section id="contact">
+            <h1 class="sub-heading">Contact</h1>
+            <div class="divider"></div>
+            <!--<p class="sub-para">Test</p> -->
+
+            <div class="contact-row">
+
+                <div class="contact-left">
+                    <!--EmailBox-->
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email</h4>
+                            <p>sittichai.mef@gmail.com</p>
+                        </div>
+                    </div>
+                    <!--Call Box-->
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Call</h4>
+                            <p>0882741053</p>
+                        </div>
+                    </div>
+                    <!--Location Box-->
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location</h4>
+                            <p>Ayutthaya</p>
+                        </div>
+                    </div>
+
+                    <!--Map-->
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989337.5096461679!2d99.8585426367623!3d14.39256026715315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2736f5bfd8f7f%3A0x1019237450c4860!2z4LiI4Lix4LiH4Lir4Lin4Lix4LiU4Lie4Lij4Liw4LiZ4LiE4Lij4Lio4Lij4Li14Lit4Lii4Li44LiY4Lii4Liy!5e0!3m2!1sth!2sth!4v1693130186755!5m2!1sth!2sth" width="100%" height="250" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                    <input type="text" name="subject" id="subject" placeholder="subject">
+                    <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/aa5f332820.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
